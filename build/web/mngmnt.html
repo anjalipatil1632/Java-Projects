@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Management</title>
+        <style>
+            #div5 {
+    width: 100%;height: 80%;background-color: #6699FF }
+            * {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  color: black
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+            
+             body{
+               background-size: cover; background-image: url(".jpg");background-color: black; background-repeat: repeat-y
+            }
+            ul {
+                ;width: 100%; 
+                list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;
+            }
+            li {
+                float: left;
+                border-right: 1px solid #bbb
+            }
+            li:last-child{
+                border-right: none
+            }
+            li a{
+                display: inline-block;color: white;text-align: center;padding: 14px 16px ;text-decoration: none;
+            }
+            li a:hover :not (.active){
+                background-color: #111
+            }
+            .active {
+                background-color: #4CAF50
+            }
+    
+
+
+#div1 {width: 100% ;height: 40%; background-image: url(25.jpg);background-size: cover;background-repeat: no-repeat }
+            </style>
+            <script>
+                 var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+                </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <center>
+<div id="div1">
+
+    <h1 style="color:whitesmoke; font-family:Broadway;font-size: 50px;border-color: blue; ">Happy :) </h1>
+<h2 style="color:white; font-family: Broadway;font-size: 30px">Old Age Home</h2>
+
+
+        <ul>
+            <li>
+                <a href="index.html" style="" class="active"> Home  </a> 
+            </li>
+            <li><a href="photo.html"> Photo Gallary </a></li>
+            <li><a href="family.html"> Family Enquiry </a></li>
+            <li><a href="service.html"> Service    </a></li>
+            <li> <a href="concept.html"> Concept    </a></li>
+            <li><a href="contact.html"> Contact Us     </a></li>
+            <li> <a href="about.html"> About Us     </a></li>
+            <li><a href="mngmnt.html"> Management     </a></li>
+            <li><a href="login.html"> Log In   </a></li>
+        </ul> 
+ <br>
+       
+</div>
+      </center>
+    <br>
+    <hr>
+    <center>
+        
+        
+    <table>
+            <tr>
+                <td>
+                    <a href="33.jpg" target="_self"> <img src="33.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+                <td>
+                    <a href="34.jpg" target="_self"><img src="34.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+                <td>
+                    <a href="35.jpg" target="_self"><img src="35.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+            <tr>
+                 <td>
+                   <a href="36.jpg" target="_self"> <img src="36.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+                
+                <td>
+                    <a href="7.jpg" target="_self"><img src="7.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+                 <td>
+                    <a href="8.jpg" target="_self"><img src="8.jpg" alt="1st img" style="width: 304px;height: 228px"></a>
+                </td>
+                
+            </tr>
+    </table>
+    
+    
+     <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 6</div>
+    <img src="32.jpg" style="width:100%">
+    <div class="text">Always There For Care</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 6</div>
+    <img src="33.jpg" style="width:100%">
+    <div class="text">24 Hrs Nurses</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 6</div>
+    <img src="34.jpg" style="width:100%">
+    <div class="text">24 Hrs Female and male Attendants</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext"> 4 / 6</div>
+    <img src="26.jpg" style="width:100%">
+    <div class="text">Qualified Manager</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 6</div>
+    <img src="11.jpg" style="width:100%">
+    <div class="text">24 Hrs House keeping services</div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 6</div>
+    <img src="23.jpg" style="width:100%">
+    <div class="text">24 Hrs Ward Boy</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>   
+</center>
+     <hr>
+    <div id="div5">
+               <table cellpadding="10">
+    <tr>
+      <td style="color: black">
+        <h2>About Us</h2><br><hr>
+Happy OLD AGE HOME is constructed at Ambivali<br> Green Village Row Houses Complex – one of the  popular <br>residential constructions  of AmbivaliGaon, Mira Road East of<br> Thane District.  To the north lies Vasai Creek, to  the east <br>BalKrishna Paper mil , Ambivali ( W )..<br> to the west which makes living next  to nature<br>providing comfort with peaceful  livelihood.
+      </td>
+      <td style="color: black">
+        <h2>Happy OLD AGE Home <br>Address</h2><br><hr>
+ <img src="location.png" alt="location" style="height: 15px"> House No.1 , 2 & 3,
+ Neharu Marg,  Pada Road,<br>
+Ambivaligaon , Mira Road 
+(E),Ambivali – 421102.<br>
+<img src="phn.jpg" alt="phn" style="height: 20px"> +912314567366 / +915623783486<br>
+ <img src="email.png" alt="email" style="height: 15px"> happy@oldagehome.com
+      </td >
+      <td style="color: black">
+        <h2>Quick Link</h2><br><hr>
+       
+          
+        <a href="about.html" style="text-decoration: none;color: black "> About Us</a><br>
+            <a href="mngmnt.html" style="text-decoration: none;color: black"> Management</a><br>
+            
+            <a href="service.html" style="text-decoration: none;color:black ">Gallery</a><br>
+            <a href="contact.html" style="text-decoration: none;color:black ">Contact Us</a><br>
+            <a href="concept.html" style="text-decoration: none;color: black">Concept</a>
+    
+        
+      </td>
+    </tr>
+  </table>
+ </div><hr>
+ <br>
+    <footer style="color: white" > Copyright &copy 2020 happyoldagehome - All Rights are Reserved</footer>
+
+</body>
+</html>

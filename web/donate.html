@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Donate Now </title>
+  <style type="text/css">
+    table {
+      
+    }
+    table ,td,th {
+      
+    }
+    body {
+        background-image: url("29.jpg")
+    }
+    #div5 {
+    width: 100%;height: 80%;background-color: #6699FF }
+  </style>
+  <script type="text/javascript">
+      
+      function GEEKFORGEEKS()                                    
+ { 
+    var name = document.forms["f1"]["t1"];               
+    var add = document.forms["f1"]["t2"];    
+    var pincode = document.forms["f1"]["t3"];     
+    var city = document.forms["f1"]["t4"];               
+    var state = document.forms["f1"]["t5"];    
+    var country = document.forms["f1"]["t6"]; 
+    var phn = document.forms["f1"]["t7"];               
+    var email = document.forms["f1"]["t8"];   
+    
+     var total_quan = document.forms["f1"]["t39"];               
+    var order_total = document.forms["f1"]["t40"];
+    
+        
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+    if (add.value == "")                                  
+    { 
+        window.alert("Please enter your address"); 
+        add.focus(); 
+        return false; 
+    }
+    if (pincode.value == "")                                  
+    { 
+        window.alert("Please enter your pincode."); 
+        pincode.focus(); 
+        return false; 
+    }
+    if (city.value == "")                                  
+    { 
+        window.alert("Please enter your city"); 
+        city.focus(); 
+        return false; 
+    }
+    if (state.value == "")                                  
+    { 
+        window.alert("Please enter your state"); 
+        state.focus(); 
+        return false; 
+    }
+    if (country.value == "")                                  
+    { 
+        window.alert("Please enter your country"); 
+        country.focus(); 
+        return false; 
+    }
+      if (phn.value == "")                           
+    { 
+        window.alert("Please enter your telephone number."); 
+        phn.focus(); 
+        return false; 
+    } 
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+    
+   
+    
+    if (total_quan.value == "")                                  
+    { 
+        window.alert("Please enter your total Quantity"); 
+        total_quan.focus(); 
+        return false; 
+    }
+    if (order_total.value == "")                                  
+    { 
+        window.alert("Please enter your order total"); 
+        order_total.focus(); 
+        return false; 
+    }
+    
+     return true; }
+     
+     
+     
+   
+          function sum()
+          {
+             var num1 = document.f1.t21.value;
+             
+             var sum = parseInt(num1) * 5000 ;
+             document.getElementById('add').value = sum;
+          }
+          function sum1()
+          {
+             var num1 = document.f1.t23.value;
+             
+             var sum2 = parseInt(num1) * 5000 ;
+             document.getElementById('add1').value = sum2;
+          }
+          function sum2()
+          {
+             var num1 = document.f1.t25.value;
+             
+             var sum3 = parseInt(num1) * 5000 ;
+             document.getElementById('add2').value = sum3;
+          }
+          function sum3()
+          {
+             var num1 = document.f1.t27.value;
+             
+             var sum4 = parseInt(num1) * 13000 ;
+             document.getElementById('add3').value = sum4;
+          }
+          function sum4()
+          {
+             var num1 = document.f1.t29.value;
+             
+             var sum5 = parseInt(num1) * 1200 ;
+             document.getElementById('add4').value = sum5;
+          }
+          function sum5()
+          {
+             var num1 = document.f1.t31.value;
+             
+             var sum6 = parseInt(num1) * 1600 ;
+             document.getElementById('add5').value = sum6;
+          }
+          function sum6()
+          {
+             var num1 = document.f1.t33.value;
+             
+             var sum7 = parseInt(num1) * 1500 ;
+             document.getElementById('add6').value = sum7;
+          }
+          function sum7()
+          {
+             var num1 = document.f1.t35.value;
+             
+             var sum8 = parseInt(num1) * 15000 ;
+             document.getElementById('add7').value = sum8;
+          }
+          function sum8()
+          {
+             var num1 = document.f1.t37.value;
+             
+             var sum19 = parseInt(num1) * 1000 ;
+             document.getElementById('add8').value = sum19;
+          }
+          function quan()
+          {
+             var num1 = document.f1.t33.value;
+             var num2 = document.f1.t35.value;
+              var num3 = document.f1.t31.value;
+              var num4 = document.f1.t21.value;
+              var num5 = document.f1.t37.value;
+              var num6 = document.f1.t29.value;
+              var num7 = document.f1.t27.value;
+              var num8 = document.f1.t23.value;
+              var num9 = document.f1.t25.value;
+              var sumall= parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5) + parseInt(num6) +parseInt(num7) + parseInt(num8) + parseInt(num9);
+              document.getElementById('all').value = sumall;
+              
+          }
+          
+          function quan1()
+          {
+              var num1 = document.f1.t22.value;
+              var num2 = document.f1.t24.value;
+              var num3 = document.f1.t26.value;
+              var num4 = document.f1.t28.value;
+              var num5 = document.f1.t30.value;
+              var num6 = document.f1.t32.value;
+              var num7 = document.f1.t34.value;
+              var num8 = document.f1.t36.value;
+              var num9 = document.f1.t38.value;
+              var sumall= parseInt(num1) + parseInt(num2) + parseInt(num3) + parseInt(num4) + parseInt(num5) + parseInt(num6) +parseInt(num7) + parseInt(num8) + parseInt(num9);
+              document.getElementById('all1').value = sumall;
+              
+          }
+         
+   </script>
+  
+  
+</head>
+<body>
+<center>
+<h1 style="font-family: Cooper Black;color: orange">Donate Now..</h1>
+<h3>Fill The Following Form:</h3>
+<form onsubmit="return GEEKFORGEEKS()" method="post" name="f1" action="donatejsp.jsp" >
+<table  cellpadding="5" style="border-collapse: collapse;box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;background: #FAFAFA" >
+  <tr>
+      <td style="">Full Name</td>
+    <td> <input type="text" name="t1" placeholder="Enter your Name" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+  <tr>
+    <td>Donor Address</td>
+    <td><input type="text" name="t2" placeholder="Enter your Address" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+   <tr>
+    <td>Pin Code</td>
+    <td><input type="text" name="t3" placeholder="Enter your Pincode" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+   <tr>
+    <td>City</td>
+    <td><input type="text" name="t4" placeholder="Enter your City" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+   <tr>
+    <td>State</td>
+    <td><input type="text" name="t5" placeholder="Enter your State" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+   <tr>
+    <td>Country</td>
+    <td><input type="text" name="t6" placeholder="Enter your Country" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;"></td>
+  </tr>
+   <tr>
+    <td>Mobile Number</td>
+    <td><input type="text" name="t7" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;" placeholder="Enter your Mobile Number" maxlength="10" minlength="10"></td>
+  </tr>
+   <tr>
+    <td>Email Address</td>
+    <td><input type="text" name="t8"  style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;" placeholder="Enter your Address"></td>
+  </tr>
+   <tr>
+    <td>Notes</td>
+    <td><input type="text" name="t9" style="width: 200px;padding: 10px 15px ;margin: 8px 0;box-sizing: border-box;" placeholder="Enter your Notes"></td>
+  </tr>
+</table>
+
+<h2 style="color:white">Donate Amount:</h2>
+<table cellpadding="5" style="border-collapse: collapse;box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;background: #FAFAFA">
+  <tr>
+    <th>Product Name</th>
+    <th>Quantity</th>
+    <th>X</th>
+    <th>Unit Price(Rs)  </th>
+    <th>  = </th>
+    <th>Totals</th>
+  </tr>
+
+  <tr>
+    <td>Breakfast</td>
+    <td><input type="text" value="0" name="t21" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>5000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum()"></td>
+    <td><input type="text" value="0" name="t22" style="width: 100px;height: 20px"  ID="add"></td>
+  </tr>
+
+  <tr>
+    <td>Lunch</td>
+    <td><input type="text" value="0" name="t23" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>5000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum1()"></td>
+    <td><input ID="add1" value="0" type="text" name="t24" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Dinner</td>
+    <td><input type="text" value="0" name="t25" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>5000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum2()"></td>
+    <td><input ID="add2" value="0" type="text" name="t26" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Full Day Meals</td>
+    <td><input type="text" value="0" name="t27" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>  13000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum3()"></td>
+    <td><input ID="add3" value="0" type="text" name="t28" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Medicines per parent(per month)</td>
+    <td><input type="text" value="0" name="t29" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>1200</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum4()"></td>
+    <td><input ID="add4" value="0" type="text" name="t30" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Orphan child Education</td>
+    <td><input type="text" value="0" name="t31" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>1600</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum5()"></td>
+    <td><input ID="add5" value="0" type="text" name="t32" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Recurring Expenses(minimum)</td>
+    <td><input type="text" value="0" name="t33" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>1500</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum6()"></td>
+    <td><input ID="add6" value="0" type="text" name="t34" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>Building Fund (minimum)</td>
+    <td><input type="text" value="0" name="t35" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>15000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum7()"></td>
+    <td><input ID="add7" value="0" type="text" name="t36" style="width: 100px;height: 20px"></td>
+  </tr>
+
+  <tr>
+    <td>General Donations(minimum)</td>
+    <td ><input type="text" value="0" name="t37" style="width: 100px;height: 20px"></td>
+    <td>X</td>
+    <td>1000</td>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="sum8()"></td>
+    <td><input ID="add8" value="0" type="text" name="t38" style="width: 100px;height: 20px"></td>
+  </tr>
+  <tr>
+    <td><br></td>
+  </tr>
+  <tr >
+    <th colspan="4" align="center">
+      Total Quantity:
+    </th>
+       <td><INPUT TYPE="button" NAME="button" Value="=" onClick="quan()"></td>
+    <td><input id="all"  type="text" name="t39" style="width: 100px;height: 20px"></td>
+  </tr>
+  <tr >
+    <th colspan="4" align="center">
+      Order Total:
+    </th>
+    <td><INPUT TYPE="button" NAME="button" Value="=" onClick="quan1()"></td>
+    <td><input  id="all1" type="text" name="t40" style="width: 100px;height: 20px"></td>
+  </tr>
+  <tr>
+   
+    
+    <td ><input type="reset"  name="s1" value="reset" style=" background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 90px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;"></td>
+    <td colspan="5"><input type="submit"  name="s1" value="Donate" style=" background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 160px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;"></td>
+    
+  </tr>
+  
+</table>
+<hr>
+ <div id="div5">
+               <table cellpadding="10">
+    <tr>
+      <td style="color: black">
+        <h2>About Us</h2><br><hr>
+Happy OLD AGE HOME is constructed at Ambivali<br> Green Village Row Houses Complex – one of the  popular <br>residential constructions  of AmbivaliGaon, Mira Road East of<br> Thane District.  To the north lies Vasai Creek, to  the east <br>BalKrishna Paper mil , Ambivali ( W )..<br> to the west which makes living next  to nature<br>providing comfort with peaceful  livelihood.
+      </td>
+      <td style="color: black">
+        <h2>Happy OLD AGE Home <br>Address</h2><br><hr>
+ <img src="location.png" alt="location" style="height: 15px"> House No.1 , 2 & 3,
+ Neharu Marg,  Pada Road,<br>
+Ambivaligaon , Mira Road 
+(E),Ambivali – 421102.<br>
+<img src="phn.jpg" alt="phn" style="height: 20px"> +912314567366 / +915623783486<br>
+ <img src="email.png" alt="email" style="height: 15px"> happy@oldagehome.com
+      </td >
+      <td style="color: black">
+        <h2>Quick Link</h2><br><hr>
+       
+          
+        <a href="about.html" style="text-decoration: none;color: black "> About Us</a><br>
+            <a href="mngmnt.html" style="text-decoration: none;color: black"> Management</a><br>
+            
+            <a href="service.html" style="text-decoration: none;color:black ">Gallery<br>
+            <a href="contact.html" style="text-decoration: none;color:black ">Contact Us</a><br>
+            <a href="concept.html" style="text-decoration: none;color: black">Concept</a>
+    
+        
+      </td>
+    </tr>
+  </table>
+           </div>
+</form>
+           <hr>
+</center>
+    <footer style="color: white" > Copyright &copy 2020 happyoldagehome - All Rights are Reserved</footer>
+</center>
+</body>
+</html>

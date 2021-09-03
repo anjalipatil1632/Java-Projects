@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Contact</title>
+        <script>
+         function GEEKFORGEEKS()                                    
+ { 
+    var name = document.forms["f1"]["field1"];               
+    var email = document.forms["f1"]["field2"];    
+    var msg = document.forms["f1"]["field3"];     
+        
+    if (name.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        name.focus(); 
+        return false; 
+    } 
+    if (email.value == "")                                   
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf("@", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+   
+    if (email.value.indexOf(".", 0) < 0)                 
+    { 
+        window.alert("Please enter a valid e-mail address."); 
+        email.focus(); 
+        return false; 
+    } 
+    if (msg.value == "")                                  
+    { 
+        window.alert("Please enter your msg"); 
+        msg.focus(); 
+        return false; 
+    } 
+    
+     return true; }
+            
+        </script>
+        <style>
+            
+            .form-style-6{
+	font: 95% Arial, Helvetica, sans-serif;
+	max-width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #F7F7F7;
+}
+.form-style-6 h1{
+	background: #43D1AF;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="date"]:focus,
+.form-style-6 input[type="datetime"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #43D1AF;
+	padding: 3%;
+	border: 1px solid #43D1AF;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #43D1AF;
+	border-bottom: 2px solid #30C29E;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #2EBC99;
+}
+            .button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+}
+div.div2 {
+  background: url(32.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+            body{
+              background-color: black; background-size: cover; background-image: url(".jpg");background-repeat: repeat-y
+            }
+            ul {
+                ;width: 100%; 
+                list-style-type: none;margin: 0;padding: 0;overflow: hidden;background-color: #333;
+            }
+            li {
+                float: left;
+                border-right: 1px solid #bbb
+            }
+            li:last-child{
+                border-right: none
+            }
+            li a{
+                display: inline-block;color: white;text-align: center;padding: 14px 16px ;text-decoration: none;
+            }
+            li a:hover :not (.active){
+                background-color: #111
+            }
+            .active {
+                background-color: #4CAF50
+            }
+    
+
+
+#div1 {width: 100% ;height: 40%; background-image: url(25.jpg);background-size: cover;background-repeat: no-repeat }
+
+#div3 { width: 100% ;height: 70%; background-image: url(31.jpg);background-size: cover; }
+#div4 {width: 100%;height: 30%;background-color: white}
+#div5 {
+    width: 100%;height: 80%;background-color: #6699FF }
+</style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+    <body>
+       <center>
+<div id="div1">
+
+    <h1 style="color:whitesmoke; font-family:Broadway;font-size: 50px;border-color: blue; ">Happy :) </h1>
+<h2 style="color:white; font-family: Broadway;font-size: 30px">Old Age Home</h2>
+
+
+        <ul>
+            <li>
+                <a href="index.html" style="" class="active"> Home  </a> 
+            </li>
+            <li><a href="photo.html"> Photo Gallary </a></li>
+            <li><a href="family.html"> Family Enquiry </a></li>
+            <li><a href="service.html"> Service    </a></li>
+            <li> <a href="concept.html"> Concept    </a></li>
+            <li><a href="contact.html"> Contact Us     </a></li>
+            <li> <a href="about.html"> About Us     </a></li>
+            <li><a href="mngmnt.html"> Management     </a></li>
+            <li><a href="login.html"> Log In   </a></li>
+        </ul> 
+ <br>
+       
+</div>
+<div class="div2">
+  <div class="transbox">
+  <center>    <h2>Contact Details</h2>
+ <table cellpadding="12">
+  <tr>
+    <td><img src="location.png" alt="location" style="height: 20px"></td>
+    <td>   House No.1 , 2 & 3, <br> Neharu Marg,  Pada Road, <br> Ambivaligaon , Mira Road <br>(E),Ambivali – 421102.</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="phn.jpg" alt="phn" style="height: 30px">
+    </td>
+    <td>   +912314567366 / +915623783486</td>
+  </tr>
+  <tr>
+    <td><img src="email.png" alt="email" style="height: 20px"></td>
+    <td>   happy@oldagehome.com</td>
+    
+  </tr>
+ </table>
+
+ <br>
+<img src="whtsup.jpg" alt="email" style="height: 53px">
+<img src="fb.jpg" alt="email" style="height: 50px">
+</center>
+  </div>
+</div>
+<div id="div3">
+       
+    <div class="form-style-6">
+<h1>Contact Us</h1>
+
+
+
+<form action="contactjsp.jsp" name="f1"  onsubmit="return GEEKFORGEEKS()" method="post" >
+<input type="text" name="field1" placeholder="Your Name" />
+<input type="email" name="field2" placeholder="Email Address" />
+<textarea name="field3" placeholder="Type your Message"></textarea>
+<input type="submit" value="Send" Onclick="cal()" />
+</form>
+
+
+
+</div>
+</div>
+           <div id="div4">.                            <hr>         .</div>
+           <div id="div5">
+               <table cellpadding="10">
+    <tr>
+      <td style="color: white">
+        <h2>About Us</h2><br><hr>
+Happy OLD AGE HOME is constructed at Ambivali<br> Green Village Row Houses Complex – one of the  popular <br>residential constructions  of AmbivaliGaon, Mira Road East of<br> Thane District.  To the north lies Vasai Creek, to  the east <br>BalKrishna Paper mil , Ambivali ( W )..<br> to the west which makes living next  to nature<br>providing comfort with peaceful  livelihood.
+      </td>
+      <td style="color: white">
+        <h2>Happy OLD AGE Home <br>Address</h2><br><hr>
+ <img src="location.png" alt="location" style="height: 15px"> House No.1 , 2 & 3,
+ Neharu Marg,  Pada Road,<br>
+Ambivaligaon , Mira Road 
+(E),Ambivali – 421102.<br>
+<img src="phn.jpg" alt="phn" style="height: 20px"> +912314567366 / +915623783486<br>
+ <img src="email.png" alt="email" style="height: 15px"> happy@oldagehome.com
+      </td >
+      <td style="color: white;">
+        <h2>Quick Link</h2><br><hr>
+       
+          
+        <a href="about.html" style="text-decoration: none;color: white"> About Us</a><br>
+            <a href="mngmnt.html" style="text-decoration: none;color: white"> Management</a><br>
+            <a href="service.html" style="text-decoration: none;color: white">Services</a><br>
+            <a href="photo.html" style="text-decoration: none;color: white">Gallery</a><br>
+            <a href="contact.html" style="text-decoration: none;color: white">Contact Us</a><br>
+            <a href="concept.html" style="text-decoration: none;color: white">Concept</a>
+    
+        
+      </td>
+    </tr>
+  </table>
+           </div>
+           <hr>
+</center>
+    <footer style="color: white" > Copyright &copy 2020 happyoldagehome - All Rights are Reserved</footer>
+    </body>
+</html>
